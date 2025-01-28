@@ -470,7 +470,7 @@ a {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: rgba(93, 87, 98, 1);
-  padding: 40px 0px 0;
+  padding: 40px 0px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -499,6 +499,7 @@ a {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     width: 535px;
+    margin: auto;
   }
 }
 .how {
@@ -934,7 +935,7 @@ a {
 .policy-terms-container {
   flex-direction: column;
   align-items: start;
-  padding: 124px 16px 116px;
+  padding: 152px 16px 40px;
 }
 .policy-terms-title {
   font-family: Dancing Script;
@@ -1017,8 +1018,10 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .policy-terms-container {
-    padding: 186px 80px 116px;
+    padding: 144px 160px 88px;
     align-items: start;
+    width: 1440px;
+    margin: auto;
   }
   .policy-terms-title {
     font-family: Dancing Script;
